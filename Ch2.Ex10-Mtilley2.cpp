@@ -4,7 +4,14 @@
 using namespace std;
 
 int main()
-{
+{    
+    int num;
+
+    std::cout << " Enter number of Gallons: ";
+    std::cin >> GallonsUsed;
+    std::cout << "Enter number of Miles driven";
+    std::cin >> MilesDriven;
+        
     const float MilesDriven = 375;
     const float GallonsUsed = 15;
 
@@ -17,6 +24,6 @@ int main()
     cout << endl; 
 
     return 0;
-
+    
 }
 
