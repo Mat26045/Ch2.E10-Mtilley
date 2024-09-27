@@ -8,7 +8,7 @@ int main()
     int num;
 
     float GallensUsed;
-    Float MilesDriven;
+    float MilesDriven;
     
     std::cout << " Enter number of Gallons: ";
     std::cin >> GallonsUsed;
