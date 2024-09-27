@@ -12,16 +12,10 @@ int main()
     std::cout << "Enter number of Miles driven";
     std::cin >> MilesDriven;
         
-    const float MilesDriven = 375;
-    const float GallonsUsed = 15;
 
     float MPG = MilesDriven / GallonsUsed;
 
-    cout << endl;
-    cout << "A car that holds 15 gallons gas and that \n";
-    cout << "can travel 375 miles before refueling will \n";
-    cout << "use " << MPG << " Miles Per Gallon.\n";
-    cout << endl; 
+   std::cout <<"Our car gets " << MPG << " miles per gallon." << std::endl;
 
     return 0;
     
